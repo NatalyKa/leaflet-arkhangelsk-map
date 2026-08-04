@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Архангельск туристический</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Header / Floating Glass Overlay -->
+  <header class="glass-panel header-panel">
+    <div class="brand">
+      <div class="logo-icon">
+        <img src="./icon/lucide/map.png" class="brand-logo-img" alt="Логотип" />
+      </div>
+      <div>
+        <h1>Архангельск туристический</h1>
+        <p class="subtitle">Достопримечательности и фотозоны</p>
+      </div>
+    </div>
+
+    <!-- Header Layer Tag Chips (Toggles for Basemaps and Photo Categories) -->
+    <div class="header-layer-tags">
+      <!-- Basemap & Boundary Tags -->
+      <button class="layer-tag-chip" id="tag-osm" title="Включить/выключить подложку OpenStreetMap" style="--tag-color: #38bdf8;">
+        <span class="tag-icon-img" style="--icon-url: url('./icon/lucide/map.png');"></span>
+        <span class="tag-title">Карта</span>
+      </button>
+
+      <button class="layer-tag-chip active" id="tag-boundary" title="Включить/выключить границу города" style="--tag-color: #94a3b8;">
+        <span class="tag-icon-img" style="--icon-url: url('./icon/lucide/square-dashed.png');"></span>
+        <span class="tag-title">Граница</span>
+      </button>
+
+      <div class="tags-divider"></div>
+
+      <!-- Photo Category Tags Container (populated dynamically) -->
+      <div id="header-photo-tags" class="photo-tags-list"></div>
+    </div>
+
+    <!-- Header Quick Actions -->
+    <div class="header-actions">
+      <button class="btn btn-chip" id="btn-export-coords" title="Скопировать / Скачать JSON координат">
+        <span class="btn-icon-symbol">💾</span>
+        <span class="btn-title">JSON</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Map Container -->
+  <main id="map"></main>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Position Confirmation Modal -->
+  <div id="confirm-modal" class="modal-overlay hidden">
+    <div class="glass-panel modal-card">
+      <div class="modal-header">
+        <span class="modal-icon">📍</span>
+        <h3>Изменение положения маркера</h3>
+      </div>
+      <div class="modal-body">
+        <p>Вы передвинули маркер <strong id="modal-marker-name">...</strong></p>
+        <div class="coords-change">
+          <div><span class="lbl">Старые координаты:</span> <code id="modal-old-coords">...</code></div>
+          <div><span class="lbl">Новые координаты:</span> <code id="modal-new-coords">...</code></div>
+        </div>
+        <p class="modal-hint">Сохранить изменения положения?</p>
+      </div>
+      <div class="modal-footer">
+        <button id="modal-btn-cancel" class="btn btn-secondary">↩️ Отмена</button>
+        <button id="modal-btn-save" class="btn btn-primary">💾 Сохранить</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Coordinates Bar -->
+  <footer class="glass-panel coords-bar">
+    <div class="coords-item">
+      <span>Координаты курсора:</span>
+      <strong id="cursor-coords">Наведите на карту...</strong>
+    </div>
+    <div class="coords-item">
+      <span>Центр карты:</span>
+      <strong id="center-coords">64.5399, 40.5154</strong>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
