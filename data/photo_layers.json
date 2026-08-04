@@ -1,0 +1,236 @@
+{
+  "churches": {
+    "title": "Храмы и церкви",
+    "icon": "./icon/church.png",
+    "color": "#eab308",
+    "photos": [
+      {
+        "id": "churches-1",
+        "name": "IMG_20260727_130258.jpg",
+        "file": "IMG_20260727_130258.jpg",
+        "url": "./images/churches/IMG_20260727_130258.jpg",
+        "lat": 64.53374,
+        "lng": 40.52051
+      },
+      {
+        "id": "churches-2",
+        "name": "744.jpg",
+        "file": "744.jpg",
+        "url": "./images/churches/744.jpg",
+        "lat": 64.52946,
+        "lng": 40.53625
+      }
+    ]
+  },
+  "kinderplaces": {
+    "title": "Детские места",
+    "icon": "./icon/lucide/baby.png",
+    "color": "#ec4899",
+    "photos": [
+      {
+        "id": "kinderplaces-1",
+        "name": "IMG_20260727_130400.jpg",
+        "file": "IMG_20260727_130400.jpg",
+        "url": "./images/kinderplaces/IMG_20260727_130400.jpg",
+        "lat": 64.53302,
+        "lng": 40.52217
+      }
+    ]
+  },
+  "monuments": {
+    "title": "Памятники",
+    "icon": "./icon/lucide/amphora.png",
+    "color": "#3b82f6",
+    "photos": [
+      {
+        "id": "monuments-1",
+        "name": "IMG_20260727_124355.jpg",
+        "file": "IMG_20260727_124355.jpg",
+        "url": "./images/monuments/IMG_20260727_124355.jpg",
+        "lat": 64.53378,
+        "lng": 40.53232
+      },
+      {
+        "id": "monuments-2",
+        "name": "IMG_20260727_124530.jpg",
+        "file": "IMG_20260727_124530.jpg",
+        "url": "./images/monuments/IMG_20260727_124530.jpg",
+        "lat": 64.53357,
+        "lng": 40.53303
+      },
+      {
+        "id": "monuments-3",
+        "name": "IMG_20260727_124710.jpg",
+        "file": "IMG_20260727_124710.jpg",
+        "url": "./images/monuments/IMG_20260727_124710.jpg",
+        "lat": 64.53444,
+        "lng": 40.53112
+      },
+      {
+        "id": "monuments-4",
+        "name": "IMG_20260727_124906.jpg",
+        "file": "IMG_20260727_124906.jpg",
+        "url": "./images/monuments/IMG_20260727_124906.jpg",
+        "lat": 64.53531,
+        "lng": 40.52794
+      },
+      {
+        "id": "monuments-5",
+        "name": "IMG_20260727_124943.jpg",
+        "file": "IMG_20260727_124943.jpg",
+        "url": "./images/monuments/IMG_20260727_124943.jpg",
+        "lat": 64.5351,
+        "lng": 40.52897
+      },
+      {
+        "id": "monuments-6",
+        "name": "IMG_20260727_125009.jpg",
+        "file": "IMG_20260727_125009.jpg",
+        "url": "./images/monuments/IMG_20260727_125009.jpg",
+        "lat": 64.53528,
+        "lng": 40.5282
+      },
+      {
+        "id": "monuments-7",
+        "name": "742.jpg",
+        "file": "742.jpg",
+        "url": "./images/monuments/742.jpg",
+        "lat": 64.5277,
+        "lng": 40.54618
+      },
+      {
+        "id": "monuments-8",
+        "name": "746.jpg",
+        "file": "746.jpg",
+        "url": "./images/monuments/746.jpg",
+        "lat": 64.53248,
+        "lng": 40.52189
+      },
+      {
+        "id": "monuments-9",
+        "name": "761.jpg",
+        "file": "761.jpg",
+        "url": "./images/monuments/761.jpg",
+        "lat": 64.52911,
+        "lng": 40.54749
+      },
+      {
+        "id": "monuments-10",
+        "name": "763.jpg",
+        "file": "763.jpg",
+        "url": "./images/monuments/763.jpg",
+        "lat": 64.53769,
+        "lng": 40.5108
+      },
+      {
+        "id": "monuments-11",
+        "name": "769.jpg",
+        "file": "769.jpg",
+        "url": "./images/monuments/769.jpg",
+        "lat": 64.5388,
+        "lng": 40.50874
+      },
+      {
+        "id": "monuments-12",
+        "name": "775.jpg",
+        "file": "775.jpg",
+        "url": "./images/monuments/775.jpg",
+        "lat": 64.52733,
+        "lng": 40.55176
+      },
+      {
+        "id": "monuments-13",
+        "name": "782.jpg",
+        "file": "782.jpg",
+        "url": "./images/monuments/782.jpg",
+        "lat": 64.54361,
+        "lng": 40.51275
+      },
+      {
+        "id": "monuments-14",
+        "name": "784.jpg",
+        "file": "784.jpg",
+        "url": "./images/monuments/784.jpg",
+        "lat": 64.54542,
+        "lng": 40.51203
+      }
+    ]
+  },
+  "museums": {
+    "title": "Музеи",
+    "icon": "./icon/lucide/landmark.png",
+    "color": "#8b5cf6",
+    "photos": [
+      {
+        "id": "museums-1",
+        "name": "IMG_20260727_125918.jpg",
+        "file": "IMG_20260727_125918.jpg",
+        "url": "./images/museums/IMG_20260727_125918.jpg",
+        "lat": 64.5346,
+        "lng": 40.51678
+      },
+      {
+        "id": "museums-2",
+        "name": "IMG_20260727_130255.jpg",
+        "file": "IMG_20260727_130255.jpg",
+        "url": "./images/museums/IMG_20260727_130255.jpg",
+        "lat": 64.53352,
+        "lng": 40.52144
+      },
+      {
+        "id": "museums-3",
+        "name": "749.jpg",
+        "file": "749.jpg",
+        "url": "./images/museums/749.jpg",
+        "lat": 64.5355,
+        "lng": 40.5225
+      }
+    ]
+  },
+  "photozones": {
+    "title": "Фотозоны",
+    "icon": "./icon/lucide/camera.png",
+    "color": "#10b981",
+    "photos": [
+      {
+        "id": "photozones-1",
+        "name": "IMG_20260727_124137.jpg",
+        "file": "IMG_20260727_124137.jpg",
+        "url": "./images/photozones/IMG_20260727_124137.jpg",
+        "lat": 64.53276,
+        "lng": 40.53558
+      }
+    ]
+  },
+  "places": {
+    "title": "Интересные места",
+    "icon": "./icon/lucide/land-plot.png",
+    "color": "#f97316",
+    "photos": [
+      {
+        "id": "places-1",
+        "name": "IMG_20260727_121918.jpg",
+        "file": "IMG_20260727_121918.jpg",
+        "url": "./images/places/IMG_20260727_121918.jpg",
+        "lat": 64.52962,
+        "lng": 40.56539
+      },
+      {
+        "id": "places-2",
+        "name": "IMG_20260727_125406.jpg",
+        "file": "IMG_20260727_125406.jpg",
+        "url": "./images/places/IMG_20260727_125406.jpg",
+        "lat": 64.53863,
+        "lng": 40.51833
+      },
+      {
+        "id": "places-3",
+        "name": "IMG_20260727_130527.jpg",
+        "file": "IMG_20260727_130527.jpg",
+        "url": "./images/places/IMG_20260727_130527.jpg",
+        "lat": 64.5331,
+        "lng": 40.52279
+      }
+    ]
+  }
+}
